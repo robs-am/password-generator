@@ -7,12 +7,20 @@
 .container {
     
     display: flex;
-    align-items: center;
+    align-items:center;
+    justify-content: center;
     flex-direction: column;
-    width: 20.5rem;
     
-    border-radius: 40px;
+    
+    
+    padding-block: 3rem;
+    margin-inline: 3.3rem;
+    margin-block: 7rem;
+    
+    border-radius: 2.5rem;
     border: 2px solid blue;
+
+    max-width: 20rem;
    
             
     
