@@ -2,6 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    align-items: center;
+        
+    justify-content: center;
+
+     padding-block: rem;
+    margin-inline: 3.3rem;
+    margin-block: 7rem; 
 }
 
 .container {
@@ -11,16 +23,14 @@
     justify-content: center;
     flex-direction: column;
     
-    
-    
-    padding-block: 3rem;
-    margin-inline: 3.3rem;
-    margin-block: 7rem;
+       
+    width: 20rem;
+    height: 20rem;
     
     border-radius: 2.5rem;
     border: 2px solid blue;
 
-    max-width: 20rem;
+    
    
             
     
