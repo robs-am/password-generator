@@ -37,9 +37,14 @@ body {
     border-radius: 1.5rem;
     border: 0.02rem solid whitesmoke;
     background-color: #90B8F8;
- 
-   
+    
             
     
+}
+
+.form {
+    display:grid;
+    grid-template-columns: auto auto;
+
 }
 
