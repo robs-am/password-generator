@@ -30,21 +30,45 @@ body {
     justify-content: center;
     flex-direction: column;
     
-       
     padding-block: 3rem;
     padding-inline: 3rem;
     
     border-radius: 1.5rem;
-    border: 0.02rem solid whitesmoke;
+    border: 0.32rem solid rgb(128, 154, 186);
     background-color: #90B8F8;
+
+
     
             
     
 }
 
-.form {
+form  {
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
+    row-gap: 1.2rem;
+    column-gap: 1rem;
+    align-items: center;
+    
 
 }
 
+.title {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+label {
+    
+}
+
+.range {
+    display: flex;
+    align-items: center;
+
+}
+
+.number-input {
+    width: 2rem;
+}
