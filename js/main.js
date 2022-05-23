@@ -15,6 +15,17 @@ const symbolsElement = document.getElementById
 
 const form = document.getElementById('passwordGeneratorForm')
 
+/* FUNÇÃO */
+
+function generatePassword(characterAmount, uppercase, numbers, symbols) {
+
+}
+
+function syncCharacterAmount(e) {
+    const value = e.target.value
+    characterAmountNumber.value = value
+    characterAmountRange.value = value
+}
 
 characterAmountNumber.addEventListener('input', syncCharacterAmount)
 characterAmountRange.addEventListener('input', syncCharacterAmount)
