@@ -13,10 +13,11 @@ body {
     align-items: center;
         
     justify-content: center;
+    min-height: 100vh;
 
-    margin-top: 8rem;
+    
     margin-inline: 3.3rem;
-    margin-block: 7rem; 
+    
 
     background-color: #26282B;
 }
@@ -25,19 +26,16 @@ body {
     
     display: flex;
     align-items:center;
-    text-align: center;
+   /*  text-align: center; */
     justify-content: center;
     flex-direction: column;
     
        
-    width: 20rem;
-    height: 20rem;
-
-    padding-block: 12rem;
-    padding-inline: 2rem;
+    padding-block: 3rem;
+    padding-inline: 3rem;
     
-    border-radius: 2.5rem;
-    border: 2px solid;
+    border-radius: 1.5rem;
+    border: 0.02rem solid whitesmoke;
     background-color: #90B8F8;
  
    

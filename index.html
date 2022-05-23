@@ -32,40 +32,41 @@
             </button>
 
             <form>
-                <label for="Number of characters"></label>
-                <input type="range" min="8" max="32" value="16" />
-                <input type="number">
+                <label for="charcaterAmountNumber">Number of Characters</label>
+                <input type="range" min="8" max="32" value="16" id="charcaterAmountRange" />
+                <input type="number" min="8" max="50" id="charcaterAmountNumber">
 
             </form>
 
 
             <div class="setting">
-                <span class="setting__title field-title">
-                    setting
-                </span>
+                
                 <div class="setting">
-                    <input type="checkbox" id="uppercase" checked>
                     <label for="uppercase" checked>
                         Include Uppercase
                     </label>
+                    <input type="checkbox" id="uppercase" checked>
+
                     <div class="setting">
-                        <input type="checkbox" id="lowercase" checked>
                         <label for="lowercase">
                             Include Lowercase
                         </label>
+                        <input type="checkbox" id="lowercase" checked>
+
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="number" checked>
                         <label for="number">
                             Include Numbers
                         </label>
                     </div>
+                    <input type="checkbox" id="number" checked>
+
                     <div class="setting">
-                        <input type="checkbox" id="number" checked>
                         <label for="number" checked>Include Symbols
                         </label>
+                        <input type="checkbox" id="number" checked>
                     </div>
-                    <button class="btn generate" id="generate">
+                    <button type="submit" class="btn generate" id="generate">
                         Generate Password
                     </button>
                 </div>
