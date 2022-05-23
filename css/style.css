@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+
     
 }
 
@@ -11,7 +14,7 @@ body {
         
     justify-content: center;
 
-    padding-block: rem;
+    margin-top: 8rem;
     margin-inline: 3.3rem;
     margin-block: 7rem; 
 
@@ -29,6 +32,9 @@ body {
        
     width: 20rem;
     height: 20rem;
+
+    padding-block: 12rem;
+    padding-inline: 2rem;
     
     border-radius: 2.5rem;
     border: 2px solid;
@@ -38,3 +44,4 @@ body {
             
     
 }
+
