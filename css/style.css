@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Helvetica', sans-serif;
    
 
     
@@ -20,6 +20,9 @@ body {
     
 
     background-color: #26282B;
+    opacity: 1;
+    background-image:  linear-gradient(#333 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #333 1.2000000000000002px, #26282B 1.2000000000000002px);
+    background-size: 24px 24px;
 }
 
 .container {
@@ -35,12 +38,18 @@ body {
     
     border-radius: 4rem;
     
-    background-color: #90B8F8;
+    background: linear-gradient(#3d82b1, #add1e8 );
 
-
-    
+       
             
     
+}
+
+.padlock img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
 }
 
 form  {
@@ -58,6 +67,7 @@ form  {
     margin: 0;
     text-align: center;
     padding-bottom: 1.5rem;
+    color: #353941;
 }
 
 label {
@@ -85,6 +95,7 @@ label {
     align-items: center;
     justify-content: center;
     word-break: break-all;
+    color:rgb(143, 142, 146);
     
     
     
