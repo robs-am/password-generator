@@ -27,6 +27,9 @@ function syncCharacterAmount(e) {
     characterAmountRange.value = value
 }
 
+const UPPERCASE_CHAR_CODES = arrayFromLowToHigh(65, 90)
+const LOWERCASE_CHAR_CODES = arrayFromLowToHigh(97, 122)
+
 characterAmountNumber.addEventListener('input', syncCharacterAmount)
 characterAmountRange.addEventListener('input', syncCharacterAmount)
 
@@ -41,7 +44,16 @@ form.addEventListener('submit',e=>{
     const password = generatePassword(characterAmount, uppercase, numbers, symbols)
   })
 
-function syncCharacterAmount(e){
+  
+  function arrayFromLowToHigh(low, high) {
+      const array = []
+      for (let i = low; i <= high; i++) {
+        array.push(i)
+    }
+    return array 
+}
+
+ function syncCharacterAmount(e){
     const value = e.target.value
     characterAmountNumber.value = value
     characterAmountRange.value = value
