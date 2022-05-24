@@ -70,14 +70,17 @@ form  {
     color: #353941;
 }
 
-label {
-    
-}
+
 
 .range {
     display: flex;
     align-items: center;
 
+}
+
+.range .slider {
+    border: none;
+    height: 3px;
 }
 
 .number-input {
