@@ -5,8 +5,7 @@
 
 <p align="center">
  <a href="#about">About</a> •
-
- <a href="#tech-stack">Tech Stack</a> • 
+ <a href="#references">References</a> • 
   
  
 </p>
@@ -33,13 +32,12 @@
 
 
 
-<h2 align="center">Tech Stack</h2>
+<h2 align="center">References</h2>
 
 <strong>Website:</strong><br><br>
 
 HTML5, CSS3, JavaScript<br>
 Editor: https://code.visualstudio.com/<br>
-React Icons: https://react-icons.github.io/react-icons/<br>
-API: https://openweathermap.org/api<br>
-Text effects: https://medialoot.com/blog/quick-tip-how-to-create-css-text-effects-using-only-the-text-shadow-attribu/<br>
-Background: https://unsplash.com/s/photos/source
+3D icon: https://3dicons.co/<br>
+Guideline: https://w3collective.com/random-password-generator-javascript/
+
