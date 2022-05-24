@@ -1,11 +1,11 @@
 <h1 align="center">​🔐 Password Generator</h1>
 <p align="center">App Generator for creating safe passwords</p>
-<p align="center">https://weather-app-robs.netlify.app/](https://password-generator-puce-one.vercel.app/)</p>
+<p align="center">https://password-generator-puce-one.vercel.app/</p>
 
 
 <p align="center">
  <a href="#about">About</a> •
- <a href="#layout">Layout</a> • 
+
  <a href="#tech-stack">Tech Stack</a> • 
   
  
@@ -30,21 +30,6 @@
 
 
           
-
-
-<h2 align="center">Layout</h2>
-
-<p align="center"><strong>Mobile</strong></p>
-
-![127 - Full - iPhone X - 2022-04-26 at 4 02 03 PM](https://user-images.githubusercontent.com/102549776/165373361-60927482-5a10-42bf-ae87-440c7078e95e.jpg)
-
-
-<br><br>
-
-<p align="center"><strong>Desktop</strong></p>
-
-![127 - Full - Generic Laptop - 2022-04-26 at 4 02 03 PM](https://user-images.githubusercontent.com/102549776/165373204-08918046-11d6-461b-bee6-f8bd15a9006b.jpg)</p>
-
 
 
 
