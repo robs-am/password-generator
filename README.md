@@ -1,6 +1,6 @@
 <h1 align="center">​🔐 Password Generator</h1>
 <p align="center">App Generator for creating safe passwords</p>
-<p align="center">https://password-generator-puce-one.vercel.app/</p>
+<p align="center">Deploy: https://password-generator-puce-one.vercel.app/</p>
 
 
 <p align="center">
@@ -10,7 +10,8 @@
  
 </p>
 
-![password_generator](https://user-images.githubusercontent.com/102549776/170089079-62e655df-a64c-4e36-ba9e-6f2358d9f70c.gif)
+
+![Vídeo-sem-título-‐-Feito-com-o-Clipchamp-_1_](https://user-images.githubusercontent.com/102549776/170091426-ae7aee80-3db8-4001-8cb5-e3cd9859e979.gif)
 
 
 
