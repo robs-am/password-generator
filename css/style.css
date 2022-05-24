@@ -55,7 +55,7 @@ body {
 form  {
     display:grid;
     grid-template-columns: auto;
-    row-gap: 1.2rem;
+    row-gap: 2rem;
     column-gap: 1rem;
     align-items: center;
     padding-top: 1.5rem;
@@ -116,7 +116,7 @@ form  {
 }
 
 .btn-generate {
-    padding-top: 1rem;
+    padding-block: 1.5rem;
     grid-column: span 2;
     
     background-color: whitesmoke;
@@ -128,4 +128,12 @@ form  {
 
     box-shadow: 1px 1px 0 rgb(223, 227, 229), 4px 4px 0 rgba(0, 0, 0, 0.25);
     color: #3f3f3f;
+}
+
+.btn-generate:hover {
+
+    background-color: #b8bbc1;
+    color: white;
+    transform: translateY(2px);
+
 }

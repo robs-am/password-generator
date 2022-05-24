@@ -16,24 +16,25 @@
         </div>
 
         <h1 class="title">Password Generator</h1>
-        <h4 class="password-display">Password</h4>
+        <h4 class="password-display" id="passwordDisplay">Password</h4>
+        <button id="copy">Copy</button>
 
-        <form id="passwordGenerator">
+        <form id="passwordGeneratorForm" class="form">
 
             <label for="characterAmountNumber">Number of Characters</label>
 
             <div class="range">
-                <input class="slider" type="range" min="8" max="32" value="16" id="characterAmountRange">
+                <input class="slider" type="range" min="8" max="50" value="16" id="characterAmountRange">
                 <input  class="number-input" type="number" min="8" max="50" id="characterAmountNumber">
             </div>
 
 
 
         <div>
-            <label for="uppercase" checked>
+            <label for="includeUppercase" checked>
                 Include Uppercase
             </label>
-            <input type="checkbox" id="uppercase" checked>
+            <input type="checkbox" id="includeUppercase" checked>
         </div>
 
         <div>
@@ -45,20 +46,22 @@
         </div>
         
         <div>
-            <label for="numbers">
+            <label for="includeNumbers">
                 Include Numbers
             </label>
-            <input type="checkbox" id="number" checked>
+            <input type="checkbox" id="includeNumbers" checked>
         </div>
         
         <div>
-            <label for="symbols" checked>Include Symbols</label>
-            <input type="checkbox" id="symbol" checked>
+            <label for="includeSymbols" checked>Include Symbols</label>
+            <input type="checkbox" id="includeSymbols" checked>
         </div>
 
+          
             <button type="submit" class="btn-generate" id="generate">
                 Generate Password
             </button>
+        
         </form>
 
 
