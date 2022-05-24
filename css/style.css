@@ -85,8 +85,9 @@ form  {
 }
 
 .number-input {
-    border-radius: 50px;
-    
+    border-radius: 25px;
+    align-items: center;
+    margin-block: 1rem;
 }
 
 .number-input {
