@@ -81,6 +81,12 @@ form  {
 .range .slider {
     border: none;
     height: 3px;
+    color:rgb(18, 57, 215);
+}
+
+.number-input {
+    border-radius: 50px;
+    
 }
 
 .number-input {
