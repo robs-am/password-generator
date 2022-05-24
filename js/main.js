@@ -58,9 +58,3 @@ function syncCharacterAmount(e) {
   characterAmountRange.value = value
 }    
 
-const copyBtn = document.getElementById("copy");
-copyBtn.addEventListener("click", () => {
-  passwordTxt.select();
-  document.execCommand("copy");
-  alert("Password Copied");
-});
